@@ -468,7 +468,7 @@ const RX=new RegExp(`(\\/\\/.*|#.*)|("[^"\\n]*"|'[^'\\n]*')|\\b(${KW})\\b|\\b(\\
 const hl=c=>esc(c).replace(RX,(m,a,b,c2,d,e)=>`<span class="${a?'m':b?'s':c2?'k':d?'n':'t'}">${m}</span>`);
 const TL=['$ ping 10.0.0.1  ->  Reply from 10.0.0.1','$ flutter run  ->  App running','$ nmap -p 443 host  ->  443/tcp open'];
 const UI={
-en:{brand:'Study Hub',h1:'Everything you need to revise, in one place',hs:'Pick your class, then jump into summaries, solved exercises and practice. Flip to Egyptian Arabic whenever it helps.',pick:'Which class are we studying?',back:'All classes',secN:'sections',sec1:'section',inst:'Lecturer',ta:'TA',
+en:{brand:'Study Hub',h1:'Everything you need to revise, in one place',hs:'Pick your class, then jump into summaries, solved exercises and practice. Good luck and Dont forget to study.',pick:'Which class are we studying?',back:'All classes',secN:'sections',sec1:'section',inst:'Lecturer',ta:'TA',
 all:'All',view:'Open question',close:'Close',lq:'Question',lh:'How to solve it',la:'Correct answer',
 try:'Try it yourself',ph:'Type your answer or code here...',chk:'Check my answer',clr:'Clear',okv:'Nice, that is correct!',pv:'Almost there',nv:'Not quite yet',sc:'checks passed',empty:'Write something first, then hit Check.',need:'Fix:',
 l1:'Level 1 · Spot it',l2:'Level 2 · Change it',l3:'Level 3 · Make it work',l4:'Exit ticket',ex:'Exercise',dk:'Google dork tasks',
